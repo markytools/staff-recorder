@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EmployeeManagerHome</class>
+ <widget class="QWidget" name="EmployeeManagerHome">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>706</width>
+    <height>488</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(242, 247, 255);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>669</width>
+        <height>521</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="12" column="1">
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Ignored</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>344</width>
+           <height>26</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLabel" name="label_27">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>STAFF RECORDS</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2" rowspan="15">
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Ignored</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>100</width>
+           <height>278</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="4" column="1">
+        <widget class="QPushButton" name="newEmployee">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid #7a7a7a;
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+         </property>
+         <property name="text">
+          <string>New Employee</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QPushButton" name="newPlantillaPersonnel">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid #7a7a7a;
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+         </property>
+         <property name="text">
+          <string>New Plantilla of Personnel</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QPushButton" name="viewEmployees">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid #7a7a7a;
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+         </property>
+         <property name="text">
+          <string>View Employees</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="1">
+        <widget class="QPushButton" name="viewPlantillaCasualAppointments">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid #7a7a7a;
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+         </property>
+         <property name="text">
+          <string>View Plantillas of Casual Appointment</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QPushButton" name="newPlantillaCasual">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid #7a7a7a;
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+         </property>
+         <property name="text">
+          <string>New Plantilla of Casual Appointment</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="1">
+        <widget class="QPushButton" name="noPlantillaVacPos">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid #7a7a7a;
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+         </property>
+         <property name="text">
+          <string>Number of Plantilla and Vacant Position</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <widget class="QPushButton" name="viewPlantillaPersonnels">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid #7a7a7a;
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+         </property>
+         <property name="text">
+          <string>View Plantillas of Personnels</string>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="1">
+        <widget class="QPushButton" name="customQuery">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid #7a7a7a;
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+         </property>
+         <property name="text">
+          <string>Custom Query</string>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="1">
+        <layout class="QFormLayout" name="messageForm"/>
+       </item>
+       <item row="2" column="0" rowspan="14">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Ignored</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>143</width>
+           <height>488</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="14" column="1" rowspan="2">
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Ignored</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="1" rowspan="3">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Ignored</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+      <zorder>viewEmployees</zorder>
+      <zorder>noPlantillaVacPos</zorder>
+      <zorder>viewPlantillaCasualAppointments</zorder>
+      <zorder>viewPlantillaPersonnels</zorder>
+      <zorder>newPlantillaCasual</zorder>
+      <zorder>newPlantillaPersonnel</zorder>
+      <zorder>viewEmployees</zorder>
+      <zorder>newEmployee</zorder>
+      <zorder>customQuery</zorder>
+      <zorder>horizontalSpacer</zorder>
+      <zorder>horizontalSpacer_2</zorder>
+      <zorder>verticalSpacer_3</zorder>
+      <zorder>verticalSpacer_2</zorder>
+      <zorder>formLayoutWidget</zorder>
+      <zorder>label_27</zorder>
+      <zorder>verticalSpacer</zorder>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

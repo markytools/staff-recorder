@@ -1,0 +1,3378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NewEmployee</class>
+ <widget class="QWidget" name="NewEmployee">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>744</width>
+    <height>5852</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(242, 247, 255);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_6">
+   <item row="0" column="1">
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>724</width>
+        <height>5832</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_14">
+       <item row="5" column="0" colspan="2">
+        <widget class="QGroupBox" name="volWorkBox">
+         <property name="styleSheet">
+          <string notr="true">QWidget#volWorkBox{
+	border: 2px solid #4f5053;
+}</string>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_10">
+          <item row="0" column="0" colspan="4">
+           <widget class="QLabel" name="label_41">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>VOLUNTARY WORK</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="4">
+           <layout class="QFormLayout" name="voluntaryWorkLayout"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="anotherVWorkLabel">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Add a new voluntary work?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QPushButton" name="addVWorkB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>    Add    </string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <spacer name="horizontalSpacer_8">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>97</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="2" column="3">
+           <widget class="QPushButton" name="deleteVWorkB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>    Delete data    </string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="4" column="0" colspan="2">
+        <widget class="QGroupBox" name="servRecBox">
+         <property name="styleSheet">
+          <string notr="true">QWidget#servRecBox{
+	border: 2px solid #4f5053;
+}</string>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_9">
+          <item row="0" column="0" colspan="4">
+           <widget class="QLabel" name="label_40">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>SERVICE RECORD OF APPOINTMENT</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="4">
+           <layout class="QFormLayout" name="serviceRecordLayout"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="otherServiceRecordLabel">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Add a new service record?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QPushButton" name="addServiceRecordB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>    Add    </string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <spacer name="horizontalSpacer_7">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>118</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="2" column="3">
+           <widget class="QPushButton" name="deleteServiceRecord">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>    Delete data    </string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="2">
+        <widget class="QGroupBox" name="personalInfoBox">
+         <property name="styleSheet">
+          <string notr="true">QWidget#personalInfoBox{
+	border: 2px solid #4f5053;
+}</string>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="25" column="0" colspan="9">
+           <widget class="QGroupBox" name="resAddrBox">
+            <property name="styleSheet">
+             <string notr="true">QWidget#resAddrBox{
+	border: 1px solid #4f5053;
+}</string>
+            </property>
+            <property name="title">
+             <string/>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_2">
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_17">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Residential Address</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QLineEdit" name="residentAddrEdit">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLineEdit" name="zipCodeResAddrEdit">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_19">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Telephone No.</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="telNoResAddrEdit">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_18">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Zip Code</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="26" column="0" colspan="9">
+           <widget class="QGroupBox" name="permAddrBox">
+            <property name="styleSheet">
+             <string notr="true">QWidget#permAddrBox{
+	border: 1px solid #4f5053;
+}</string>
+            </property>
+            <property name="title">
+             <string/>
+            </property>
+            <layout class="QGridLayout" name="gridLayout">
+             <item row="0" column="1">
+              <widget class="QLineEdit" name="permAddrEdit">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="telNoPermAddrEdit">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_22">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Telephone No.</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_21">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Zip Code</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLineEdit" name="zipCodePermAddrEdit">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_20">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Permanent Address</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="0" column="0" colspan="9">
+           <widget class="QLabel" name="label_27">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>PERSONAL INFORMATION</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="3" colspan="4">
+           <widget class="QCheckBox" name="maleCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Male</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="7" colspan="2">
+           <widget class="QCheckBox" name="femaleCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Female</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="0" colspan="3">
+           <widget class="QLabel" name="label_8">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Civil Status</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="3" colspan="5">
+           <widget class="QCheckBox" name="annulledCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Annulled</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3" colspan="6">
+           <widget class="QLineEdit" name="lastnameedit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0" colspan="2">
+           <widget class="QLabel" name="label_2">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Last Name</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0" colspan="2">
+           <widget class="QLabel" name="label_3">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Middle Name</string>
+            </property>
+           </widget>
+          </item>
+          <item row="13" column="3" colspan="2">
+           <widget class="QCheckBox" name="otherCStatusCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Other, specify</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="3" colspan="6">
+           <widget class="QLineEdit" name="nameextedit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="0" colspan="3">
+           <widget class="QLabel" name="label_7">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Sex</string>
+            </property>
+           </widget>
+          </item>
+          <item row="12" column="3">
+           <widget class="QCheckBox" name="separatedCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Separated</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0" colspan="3">
+           <widget class="QLabel" name="label_5">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Date of Birth</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="3" colspan="5">
+           <widget class="QCheckBox" name="singleCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Single</string>
+            </property>
+           </widget>
+          </item>
+          <item row="17" column="0" colspan="3">
+           <widget class="QLabel" name="label_9">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Citizenship</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3" colspan="6">
+           <widget class="QLineEdit" name="firstnameedit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::StrongFocus</enum>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="3">
+           <widget class="QLabel" name="label">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="text">
+             <string>First Name</string>
+            </property>
+           </widget>
+          </item>
+          <item row="11" column="3" colspan="5">
+           <widget class="QCheckBox" name="widowedCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Widowed</string>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="3" colspan="5">
+           <widget class="QCheckBox" name="marriedCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Married</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="3" colspan="6">
+           <widget class="QLineEdit" name="placeOfBirthEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="3" colspan="6">
+           <widget class="QLineEdit" name="middlenameedit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0" colspan="3">
+           <widget class="QLabel" name="label_4">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Name Extension (e.g. Jr., Sr.)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0" colspan="3">
+           <widget class="QLabel" name="label_6">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Place of Birth</string>
+            </property>
+           </widget>
+          </item>
+          <item row="20" column="3" colspan="6">
+           <widget class="QLineEdit" name="bloodTypeEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="21" column="3" colspan="6">
+           <widget class="QLineEdit" name="gsisNoEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="21" column="0" colspan="3">
+           <widget class="QLabel" name="label_13">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>GSIS ID No.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="18" column="0" colspan="3">
+           <widget class="QLabel" name="label_10">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Height (m)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="17" column="3" colspan="6">
+           <widget class="QLineEdit" name="citizenshipEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="19" column="0" colspan="3">
+           <widget class="QLabel" name="label_11">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Weight (kg)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="20" column="0" colspan="3">
+           <widget class="QLabel" name="label_12">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Blood Type</string>
+            </property>
+           </widget>
+          </item>
+          <item row="29" column="0" colspan="3">
+           <widget class="QLabel" name="label_25">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Agency Employee No.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="29" column="3" colspan="6">
+           <widget class="QLineEdit" name="agencyNoEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;
+</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="23" column="0" colspan="3">
+           <widget class="QLabel" name="label_15">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>PHILHEALTH No.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="24" column="3" colspan="6">
+           <widget class="QLineEdit" name="sssNoEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="30" column="3" colspan="6">
+           <widget class="QLineEdit" name="tinNoEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="27" column="3" colspan="6">
+           <widget class="QLineEdit" name="emailEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="23" column="3" colspan="6">
+           <widget class="QLineEdit" name="philhealthNoEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="22" column="0" colspan="3">
+           <widget class="QLabel" name="label_14">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>PAG-IBIG ID No.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="22" column="3" colspan="6">
+           <widget class="QLineEdit" name="pagibigNoEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="24" column="0" colspan="3">
+           <widget class="QLabel" name="label_16">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>SSS No.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="28" column="0" colspan="3">
+           <widget class="QLabel" name="label_24">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Cellphone No. (if any)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="30" column="0" colspan="3">
+           <widget class="QLabel" name="label_26">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>TIN</string>
+            </property>
+           </widget>
+          </item>
+          <item row="28" column="3" colspan="6">
+           <widget class="QLineEdit" name="cellNoEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="27" column="0" colspan="3">
+           <widget class="QLabel" name="label_23">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Email Address (if any)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="3" colspan="6">
+           <widget class="QDateEdit" name="birthdateEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="13" column="5" colspan="4">
+           <widget class="QLineEdit" name="otherCStatusEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="19" column="3" colspan="6">
+           <widget class="QLineEdit" name="weightEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="18" column="6">
+           <widget class="QLineEdit" name="feetEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+            </property>
+            <property name="text">
+             <string>0</string>
+            </property>
+           </widget>
+          </item>
+          <item row="18" column="8">
+           <widget class="QLineEdit" name="inchEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+            </property>
+            <property name="text">
+             <string>0</string>
+            </property>
+           </widget>
+          </item>
+          <item row="18" column="7">
+           <widget class="QLabel" name="label_44">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>  Inch (in)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="18" column="3" colspan="2">
+           <widget class="QLineEdit" name="heightEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+            </property>
+            <property name="text">
+             <string>0</string>
+            </property>
+           </widget>
+          </item>
+          <item row="18" column="5">
+           <widget class="QLabel" name="label_45">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>        Foot (ft)</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+         <zorder>firstnameedit</zorder>
+         <zorder>middlenameedit</zorder>
+         <zorder>lastnameedit</zorder>
+         <zorder>label_4</zorder>
+         <zorder>label_3</zorder>
+         <zorder>label</zorder>
+         <zorder>nameextedit</zorder>
+         <zorder>label_2</zorder>
+         <zorder>label_5</zorder>
+         <zorder>placeOfBirthEdit</zorder>
+         <zorder>label_6</zorder>
+         <zorder>label_7</zorder>
+         <zorder>maleCB</zorder>
+         <zorder>femaleCB</zorder>
+         <zorder>label_8</zorder>
+         <zorder>singleCB</zorder>
+         <zorder>marriedCB</zorder>
+         <zorder>annulledCB</zorder>
+         <zorder>widowedCB</zorder>
+         <zorder>otherCStatusCB</zorder>
+         <zorder>label_9</zorder>
+         <zorder>citizenshipEdit</zorder>
+         <zorder>heightEdit</zorder>
+         <zorder>label_10</zorder>
+         <zorder>weightEdit</zorder>
+         <zorder>label_11</zorder>
+         <zorder>bloodTypeEdit</zorder>
+         <zorder>label_12</zorder>
+         <zorder>label_13</zorder>
+         <zorder>gsisNoEdit</zorder>
+         <zorder>label_14</zorder>
+         <zorder>pagibigNoEdit</zorder>
+         <zorder>label_15</zorder>
+         <zorder>philhealthNoEdit</zorder>
+         <zorder>sssNoEdit</zorder>
+         <zorder>label_16</zorder>
+         <zorder>resAddrBox</zorder>
+         <zorder>permAddrBox</zorder>
+         <zorder>label_23</zorder>
+         <zorder>emailEdit</zorder>
+         <zorder>label_24</zorder>
+         <zorder>cellNoEdit</zorder>
+         <zorder>label_25</zorder>
+         <zorder>agencyNoEdit</zorder>
+         <zorder>tinNoEdit</zorder>
+         <zorder>label_26</zorder>
+         <zorder>label_27</zorder>
+         <zorder>otherCStatusEdit</zorder>
+         <zorder>separatedCB</zorder>
+         <zorder>birthdateEdit</zorder>
+         <zorder>inchEdit</zorder>
+         <zorder>feetEdit</zorder>
+         <zorder>label_44</zorder>
+         <zorder>label_45</zorder>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="2">
+        <widget class="QGroupBox" name="civilServElBox">
+         <property name="styleSheet">
+          <string notr="true">QWidget#civilServElBox{
+	border: 2px solid #4f5053;
+}</string>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="0" column="0" colspan="4">
+           <widget class="QLabel" name="label_39">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>CIVIL SERVICE ELIGIBILITY</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="4">
+           <layout class="QFormLayout" name="civilServLayout"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="otherCivilServLabel">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Add a new civil service?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QPushButton" name="addCivilServB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>    Add    </string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <spacer name="horizontalSpacer_6">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>68</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="2" column="3">
+           <widget class="QPushButton" name="deleteCivilServ">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>    Delete data    </string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="6" column="0" colspan="2">
+        <widget class="QGroupBox" name="trainProgBox">
+         <property name="styleSheet">
+          <string notr="true">QWidget#trainProgBox{
+	border: 2px solid #4f5053;
+}</string>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_11">
+          <item row="0" column="0" colspan="4">
+           <widget class="QLabel" name="label_42">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>TRAINING PROGRAMS</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="4">
+           <layout class="QFormLayout" name="trainingProgramLayout"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="newTrainingProgramLabel">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Add a new training program?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QPushButton" name="addTrainingProgramB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>    Add    </string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <spacer name="horizontalSpacer_9">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>263</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="2" column="3">
+           <widget class="QPushButton" name="deleteTrainingProgramB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>    Delete data    </string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QGroupBox" name="familyBgBox">
+         <property name="styleSheet">
+          <string notr="true">QWidget#familyBgBox{
+	border: 2px solid #4f5053;
+}</string>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_8">
+          <item row="7" column="1">
+           <widget class="QPushButton" name="addChild">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>Yes</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1" rowspan="2">
+           <widget class="QPushButton" name="addSpouse">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>    Yes    </string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="0">
+           <widget class="QLabel" name="anotherChild">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Do you have a child?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="3">
+           <widget class="QPushButton" name="deleteChild">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string> Delete a Child</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0" rowspan="2">
+           <widget class="QLabel" name="anotherSpouseLabel">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Do you have a spouse?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3" rowspan="2">
+           <widget class="QPushButton" name="deleteSpouseB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string> Delete a Spouse </string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0" colspan="4">
+           <widget class="QLabel" name="label_28">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>FAMILY BACKGROUND</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="2">
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>177</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="3" column="2">
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="0" colspan="4">
+           <layout class="QFormLayout" name="spouselayout"/>
+          </item>
+          <item row="4" column="0" colspan="4">
+           <widget class="QGroupBox" name="parentsBox">
+            <property name="styleSheet">
+             <string notr="true">QWidget#parentsBox{
+	border: 1px solid #4f5053;
+}</string>
+            </property>
+            <property name="title">
+             <string/>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_5">
+             <item row="0" column="0" colspan="2">
+              <widget class="QLabel" name="label_31">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Father's Name</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0" colspan="2">
+              <widget class="QLabel" name="label_32">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Surname</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="2">
+              <widget class="QLineEdit" name="fatherSurnameEdit">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_33">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>First Name</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0" colspan="2">
+              <widget class="QLabel" name="label_34">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Middle Name</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="2">
+              <widget class="QLineEdit" name="fatherMiddleNameEdit">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="2">
+              <widget class="QLineEdit" name="fatherFirstNameEdit">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="5" column="0" colspan="4">
+           <widget class="QGroupBox" name="parentsBox2">
+            <property name="styleSheet">
+             <string notr="true">QWidget#parentsBox2{
+	border: 1px solid #4f5053;
+}</string>
+            </property>
+            <property name="title">
+             <string/>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_7">
+             <item row="0" column="0" colspan="2">
+              <widget class="QLabel" name="label_35">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Mother's Maiden Name</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0" colspan="2">
+              <widget class="QLabel" name="label_36">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Surname</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="2">
+              <widget class="QLineEdit" name="motherSurnameEdit">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_37">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>First Name</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0" colspan="2">
+              <widget class="QLabel" name="label_38">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Middle Name</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="2">
+              <widget class="QLineEdit" name="motherMiddleNameEdit">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="2">
+              <widget class="QLineEdit" name="motherFirstNameEdit">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="6" column="0" colspan="4">
+           <layout class="QFormLayout" name="childrenLayout"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="QGroupBox" name="eduBgBox">
+         <property name="styleSheet">
+          <string notr="true">QWidget#eduBgBox{
+	border: 2px solid #4f5053;
+}</string>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_12">
+          <item row="1" column="0" colspan="4">
+           <layout class="QFormLayout" name="eduBgLayout"/>
+          </item>
+          <item row="0" column="0" colspan="4">
+           <widget class="QLabel" name="label_30">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>EDUCATIONAL BACKGROUND</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="newEduBgLabel">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Add a new educational background?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <spacer name="horizontalSpacer_5">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>215</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="2" column="3">
+           <widget class="QPushButton" name="deleteEduBg">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>    Delete data    </string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QPushButton" name="addEduBg">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>    Add    </string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="7" column="0" colspan="2">
+        <widget class="QGroupBox" name="otherInfoBox">
+         <property name="styleSheet">
+          <string notr="true">QWidget#otherInfoBox{
+	border: 2px solid #4f5053;
+}</string>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_13">
+          <item row="48" column="0" colspan="10">
+           <layout class="QFormLayout" name="referenceLayout"/>
+          </item>
+          <item row="3" column="0" colspan="10">
+           <layout class="QFormLayout" name="nonAcademicDistinctionLayout"/>
+          </item>
+          <item row="5" column="0" colspan="10">
+           <layout class="QFormLayout" name="membershipOrgLayout"/>
+          </item>
+          <item row="1" column="0" colspan="10">
+           <layout class="QFormLayout" name="specialSkillLayout"/>
+          </item>
+          <item row="0" column="0" colspan="10">
+           <widget class="QLabel" name="label_43">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>OTHER INFORMATION</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="0" colspan="10">
+           <widget class="QLabel" name="newTrainingProgramLabel_5">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;I. Are you related by consaguinity or affinity to any of the following:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="0" rowspan="3" colspan="7">
+           <widget class="QLabel" name="newTrainingProgramLabel_6">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;a. Within the third degree (for National Government Employees):&lt;/p&gt;&lt;p&gt;appointing authority, recommending authority, chief of office/bureau/department of person who has immediate supervision over you in the Office, Bureau or Department where you will be appointed?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="7" colspan="2">
+           <widget class="QCheckBox" name="question1AYesCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Yes</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="9">
+           <widget class="QCheckBox" name="question1ANoCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>No</string>
+            </property>
+           </widget>
+          </item>
+          <item row="11" column="0" rowspan="3" colspan="7">
+           <widget class="QLabel" name="newTrainingProgramLabel_8">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;b. Within the fourth degree (for Local Government Employees):&lt;/p&gt;&lt;p&gt;appointing authority or recommending authority where you will be appointed?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="9">
+           <widget class="QPushButton" name="deleteSkillHobbyB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>    Delete data    </string>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="7" colspan="3">
+           <widget class="QLabel" name="newTrainingProgramLabel_7">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>If Yes, give details:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="7" colspan="3">
+           <widget class="QTextEdit" name="question1ATextEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="9">
+           <widget class="QPushButton" name="deleteNonAcademicRecB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>    Delete data    </string>
+            </property>
+           </widget>
+          </item>
+          <item row="27" column="3" rowspan="3" colspan="7">
+           <spacer name="horizontalSpacer_14">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>362</width>
+              <height>128</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="21" column="0" colspan="3">
+           <widget class="QTextEdit" name="question2BTextEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+           </widget>
+          </item>
+          <item row="23" column="0">
+           <widget class="QCheckBox" name="question3AYesCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Yes</string>
+            </property>
+           </widget>
+          </item>
+          <item row="22" column="0" colspan="10">
+           <widget class="QLabel" name="newTrainingProgramLabel_14">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;III. Have you ever been convicted of any crime or violation of any law, decree, ordinance or regulation by any court or tribunal?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="15" column="3" rowspan="3" colspan="7">
+           <spacer name="horizontalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>362</width>
+              <height>128</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="23" column="1" colspan="2">
+           <widget class="QCheckBox" name="question3ANoCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>No</string>
+            </property>
+           </widget>
+          </item>
+          <item row="28" column="0" colspan="2">
+           <widget class="QLabel" name="newTrainingProgramLabel_17">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>If Yes, give details:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="24" column="0" colspan="2">
+           <widget class="QLabel" name="newTrainingProgramLabel_15">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>If Yes, give details:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="31" column="3" rowspan="3" colspan="7">
+           <spacer name="horizontalSpacer_22">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>362</width>
+              <height>128</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="32" column="0" colspan="2">
+           <widget class="QLabel" name="newTrainingProgramLabel_36">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>If Yes, give details:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="19" column="0">
+           <widget class="QCheckBox" name="question2BYesCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Yes</string>
+            </property>
+           </widget>
+          </item>
+          <item row="14" column="0" colspan="10">
+           <widget class="QLabel" name="newTrainingProgramLabel_10">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;II. a. Have you ever been formally charged?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+          <item row="19" column="3" rowspan="3" colspan="7">
+           <spacer name="horizontalSpacer_4">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>362</width>
+              <height>128</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="25" column="0" colspan="3">
+           <widget class="QTextEdit" name="question3ATextEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+           </widget>
+          </item>
+          <item row="27" column="1" colspan="2">
+           <widget class="QCheckBox" name="question4ANoCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>No</string>
+            </property>
+           </widget>
+          </item>
+          <item row="29" column="0" colspan="3">
+           <widget class="QTextEdit" name="question4ATextEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+           </widget>
+          </item>
+          <item row="17" column="0" colspan="3">
+           <widget class="QTextEdit" name="question2ATextEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+           </widget>
+          </item>
+          <item row="15" column="0">
+           <widget class="QCheckBox" name="question2AYesCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Yes</string>
+            </property>
+           </widget>
+          </item>
+          <item row="27" column="0">
+           <widget class="QCheckBox" name="question4AYesCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Yes</string>
+            </property>
+           </widget>
+          </item>
+          <item row="18" column="0" colspan="10">
+           <widget class="QLabel" name="newTrainingProgramLabel_12">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;b. Have you ever been guilty of any administrative offense?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+          <item row="23" column="3" rowspan="3" colspan="7">
+           <spacer name="horizontalSpacer_13">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>362</width>
+              <height>128</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="19" column="1" colspan="2">
+           <widget class="QCheckBox" name="question2BNoCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>No</string>
+            </property>
+           </widget>
+          </item>
+          <item row="20" column="0" colspan="2">
+           <widget class="QLabel" name="newTrainingProgramLabel_13">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>If Yes, give details:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="15" column="1" colspan="2">
+           <widget class="QCheckBox" name="question2ANoCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>No</string>
+            </property>
+           </widget>
+          </item>
+          <item row="13" column="7" colspan="3">
+           <widget class="QTextEdit" name="question1BTextEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+           </widget>
+          </item>
+          <item row="26" column="0" colspan="10">
+           <widget class="QLabel" name="newTrainingProgramLabel_16">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;IV. Have you ever been separated from the service in any of the following modes: resignation, retirement, dropped from the rolls, dismissal, termination, end of term, finished contract, AWOL, or phased out, in the public or private sector?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="31" column="0">
+           <widget class="QCheckBox" name="question5AYesCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Yes</string>
+            </property>
+           </widget>
+          </item>
+          <item row="31" column="1" colspan="2">
+           <widget class="QCheckBox" name="question5ANoCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>No</string>
+            </property>
+           </widget>
+          </item>
+          <item row="33" column="0" colspan="3">
+           <widget class="QTextEdit" name="question5ATextEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+           </widget>
+          </item>
+          <item row="30" column="0" colspan="10">
+           <widget class="QLabel" name="newTrainingProgramLabel_18">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;V. Have you ever been a candidate in a national or local election (except Barangay election)?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="16" column="0" colspan="2">
+           <widget class="QLabel" name="newTrainingProgramLabel_11">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>If Yes, give details:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="49" column="9">
+           <widget class="QPushButton" name="deleteReferenceB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>    Delete data    </string>
+            </property>
+           </widget>
+          </item>
+          <item row="50" column="0" colspan="10">
+           <widget class="QLabel" name="newTrainingProgramLabel_68">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;VII. I declare under oath that this Personal Data Sheet has been accomplished by me, and is a true, correct, and complete statement pursuant of pertinent laws, rules and regulations of the Republic of the Philippines.&lt;/p&gt;&lt;p&gt;I also authorize the agency head/authority representative to verify/validate the contents stated herein. I trust that this information shall remain confidential.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="51" column="0" colspan="4">
+           <widget class="QLabel" name="label_29">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Community Tax Certificate No.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="36" column="0">
+           <widget class="QCheckBox" name="question6AYesCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Yes</string>
+            </property>
+           </widget>
+          </item>
+          <item row="39" column="0" colspan="10">
+           <widget class="QLabel" name="newTrainingProgramLabel_40">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;b. Are you differently abled?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="38" column="0" colspan="3">
+           <widget class="QTextEdit" name="question6ATextEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+           </widget>
+          </item>
+          <item row="43" column="0" colspan="10">
+           <widget class="QLabel" name="newTrainingProgramLabel_64">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;c. Are you a solo parent?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="45" column="0" colspan="2">
+           <widget class="QLabel" name="newTrainingProgramLabel_65">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>If Yes, give details:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="47" column="0" colspan="10">
+           <widget class="QLabel" name="newTrainingProgramLabel_66">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;VI. References (person not related by consanguinity or affinity to applicant/appointee)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="40" column="3" rowspan="3" colspan="7">
+           <spacer name="horizontalSpacer_33">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>362</width>
+              <height>128</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="49" column="5" colspan="4">
+           <spacer name="horizontalSpacer_35">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>154</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="49" column="3" colspan="2">
+           <widget class="QPushButton" name="newReferenceB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>    Add    </string>
+            </property>
+           </widget>
+          </item>
+          <item row="52" column="0" colspan="4">
+           <widget class="QLabel" name="label_46">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Issued at</string>
+            </property>
+           </widget>
+          </item>
+          <item row="53" column="0" colspan="4">
+           <widget class="QLabel" name="label_47">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Issued On</string>
+            </property>
+           </widget>
+          </item>
+          <item row="40" column="1" colspan="2">
+           <widget class="QCheckBox" name="question6BNoCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>No</string>
+            </property>
+           </widget>
+          </item>
+          <item row="36" column="1" colspan="2">
+           <widget class="QCheckBox" name="question6ANoCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>No</string>
+            </property>
+           </widget>
+          </item>
+          <item row="46" column="0" colspan="3">
+           <widget class="QTextEdit" name="question6CTextEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+           </widget>
+          </item>
+          <item row="44" column="3" rowspan="3" colspan="7">
+           <spacer name="horizontalSpacer_34">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>362</width>
+              <height>128</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="35" column="0" colspan="10">
+           <widget class="QLabel" name="newTrainingProgramLabel_38">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;a. Are you a member of any indigenous group?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="37" column="0" colspan="2">
+           <widget class="QLabel" name="newTrainingProgramLabel_39">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>If Yes, give details:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="44" column="1">
+           <widget class="QCheckBox" name="question6CNoCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>No</string>
+            </property>
+           </widget>
+          </item>
+          <item row="51" column="4" colspan="6">
+           <widget class="QLineEdit" name="commTaxNoEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="52" column="4" colspan="6">
+           <widget class="QLineEdit" name="issuedAtEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="53" column="4" colspan="6">
+           <widget class="QDateEdit" name="issuedOnEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="34" column="0" colspan="10">
+           <widget class="QLabel" name="newTrainingProgramLabel_37">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;VI. Pursuant to: (a) Indigenous People's Act (RA 8371); (b) Magna Carta for Disabled Persons (RA 7277); and (c) Solo Parents Welfare Act of 2000 (RA 8972), please answer the following items:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="54" column="0" colspan="4">
+           <widget class="QLabel" name="label_48">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Date Accomplished</string>
+            </property>
+           </widget>
+          </item>
+          <item row="40" column="0">
+           <widget class="QCheckBox" name="question6BYesCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Yes</string>
+            </property>
+           </widget>
+          </item>
+          <item row="41" column="0" colspan="2">
+           <widget class="QLabel" name="newTrainingProgramLabel_63">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>If Yes, give details:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="42" column="0" colspan="3">
+           <widget class="QTextEdit" name="question6BTextEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+           </widget>
+          </item>
+          <item row="44" column="0">
+           <widget class="QCheckBox" name="question6CYesCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Yes</string>
+            </property>
+           </widget>
+          </item>
+          <item row="36" column="3" rowspan="3" colspan="7">
+           <spacer name="horizontalSpacer_23">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>362</width>
+              <height>128</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="11" column="7" colspan="2">
+           <widget class="QCheckBox" name="question1BYesCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Yes</string>
+            </property>
+           </widget>
+          </item>
+          <item row="54" column="4" colspan="6">
+           <widget class="QDateEdit" name="dateAccomplishEdit">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="11" column="9">
+           <widget class="QCheckBox" name="question1BNoCB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>No</string>
+            </property>
+           </widget>
+          </item>
+          <item row="49" column="0" colspan="3">
+           <widget class="QLabel" name="newReferenceLabel">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Add a new reference?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="12" column="7" colspan="3">
+           <widget class="QLabel" name="newTrainingProgramLabel_9">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>If Yes, give details:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0" colspan="2">
+           <widget class="QLabel" name="newSkillHobbyLabel">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Add a new skill/hobby?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="4" colspan="5">
+           <spacer name="horizontalSpacer_10">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>126</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="2" column="2">
+           <widget class="QPushButton" name="addNewSkillHobbyB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>    Add    </string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0" colspan="3">
+           <widget class="QLabel" name="newNonAcademicRecLabel">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Add a new non-academic recognition?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="3">
+           <widget class="QPushButton" name="addNonAcademicRecB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>    Add    </string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="4" colspan="5">
+           <spacer name="horizontalSpacer_11">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>176</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="6" column="0" colspan="2">
+           <widget class="QLabel" name="newOrgMembershipLabel">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Add a new org. membership?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="2">
+           <widget class="QPushButton" name="adOrgMembershipB">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>    Add    </string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="3" colspan="6">
+           <spacer name="horizontalSpacer_12">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>244</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="6" column="9">
+           <widget class="QPushButton" name="deleteOrgMembership">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 1px solid #7a7a7a;
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>    Delete data    </string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="9" column="1">
+        <widget class="QPushButton" name="registerB">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid #7a7a7a;
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+         </property>
+         <property name="text">
+          <string>Register</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QPushButton" name="backB">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid #7a7a7a;
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+         </property>
+         <property name="text">
+          <string>Back</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="0" colspan="2">
+        <layout class="QFormLayout" name="errorLayout">
+         <property name="labelAlignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="formAlignment">
+          <set>Qt::AlignHCenter|Qt::AlignTop</set>
+         </property>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>firstnameedit</tabstop>
+  <tabstop>lastnameedit</tabstop>
+  <tabstop>middlenameedit</tabstop>
+  <tabstop>nameextedit</tabstop>
+  <tabstop>birthdateEdit</tabstop>
+  <tabstop>placeOfBirthEdit</tabstop>
+  <tabstop>maleCB</tabstop>
+  <tabstop>femaleCB</tabstop>
+  <tabstop>singleCB</tabstop>
+  <tabstop>marriedCB</tabstop>
+  <tabstop>annulledCB</tabstop>
+  <tabstop>widowedCB</tabstop>
+  <tabstop>separatedCB</tabstop>
+  <tabstop>otherCStatusCB</tabstop>
+  <tabstop>otherCStatusEdit</tabstop>
+  <tabstop>citizenshipEdit</tabstop>
+  <tabstop>heightEdit</tabstop>
+  <tabstop>weightEdit</tabstop>
+  <tabstop>bloodTypeEdit</tabstop>
+  <tabstop>gsisNoEdit</tabstop>
+  <tabstop>pagibigNoEdit</tabstop>
+  <tabstop>philhealthNoEdit</tabstop>
+  <tabstop>sssNoEdit</tabstop>
+  <tabstop>residentAddrEdit</tabstop>
+  <tabstop>zipCodeResAddrEdit</tabstop>
+  <tabstop>telNoResAddrEdit</tabstop>
+  <tabstop>permAddrEdit</tabstop>
+  <tabstop>zipCodePermAddrEdit</tabstop>
+  <tabstop>telNoPermAddrEdit</tabstop>
+  <tabstop>emailEdit</tabstop>
+  <tabstop>cellNoEdit</tabstop>
+  <tabstop>agencyNoEdit</tabstop>
+  <tabstop>tinNoEdit</tabstop>
+  <tabstop>addSpouse</tabstop>
+  <tabstop>deleteSpouseB</tabstop>
+  <tabstop>fatherSurnameEdit</tabstop>
+  <tabstop>fatherFirstNameEdit</tabstop>
+  <tabstop>fatherMiddleNameEdit</tabstop>
+  <tabstop>motherSurnameEdit</tabstop>
+  <tabstop>motherFirstNameEdit</tabstop>
+  <tabstop>motherMiddleNameEdit</tabstop>
+  <tabstop>addChild</tabstop>
+  <tabstop>deleteChild</tabstop>
+  <tabstop>addEduBg</tabstop>
+  <tabstop>deleteEduBg</tabstop>
+  <tabstop>addCivilServB</tabstop>
+  <tabstop>deleteCivilServ</tabstop>
+  <tabstop>addServiceRecordB</tabstop>
+  <tabstop>deleteServiceRecord</tabstop>
+  <tabstop>addVWorkB</tabstop>
+  <tabstop>deleteVWorkB</tabstop>
+  <tabstop>addTrainingProgramB</tabstop>
+  <tabstop>deleteTrainingProgramB</tabstop>
+  <tabstop>addNewSkillHobbyB</tabstop>
+  <tabstop>deleteSkillHobbyB</tabstop>
+  <tabstop>addNonAcademicRecB</tabstop>
+  <tabstop>deleteNonAcademicRecB</tabstop>
+  <tabstop>adOrgMembershipB</tabstop>
+  <tabstop>deleteOrgMembership</tabstop>
+  <tabstop>question1AYesCB</tabstop>
+  <tabstop>question1ANoCB</tabstop>
+  <tabstop>question1ATextEdit</tabstop>
+  <tabstop>question1BYesCB</tabstop>
+  <tabstop>question1BNoCB</tabstop>
+  <tabstop>question1BTextEdit</tabstop>
+  <tabstop>question2AYesCB</tabstop>
+  <tabstop>question2ANoCB</tabstop>
+  <tabstop>question2ATextEdit</tabstop>
+  <tabstop>question2BYesCB</tabstop>
+  <tabstop>question2BNoCB</tabstop>
+  <tabstop>question2BTextEdit</tabstop>
+  <tabstop>question3AYesCB</tabstop>
+  <tabstop>question3ANoCB</tabstop>
+  <tabstop>question3ATextEdit</tabstop>
+  <tabstop>question4AYesCB</tabstop>
+  <tabstop>question4ANoCB</tabstop>
+  <tabstop>question4ATextEdit</tabstop>
+  <tabstop>question5AYesCB</tabstop>
+  <tabstop>question5ANoCB</tabstop>
+  <tabstop>question5ATextEdit</tabstop>
+  <tabstop>question6AYesCB</tabstop>
+  <tabstop>question6ANoCB</tabstop>
+  <tabstop>question6ATextEdit</tabstop>
+  <tabstop>question6BYesCB</tabstop>
+  <tabstop>question6BNoCB</tabstop>
+  <tabstop>question6BTextEdit</tabstop>
+  <tabstop>question6CYesCB</tabstop>
+  <tabstop>question6CNoCB</tabstop>
+  <tabstop>question6CTextEdit</tabstop>
+  <tabstop>newReferenceB</tabstop>
+  <tabstop>deleteReferenceB</tabstop>
+  <tabstop>commTaxNoEdit</tabstop>
+  <tabstop>issuedAtEdit</tabstop>
+  <tabstop>issuedOnEdit</tabstop>
+  <tabstop>dateAccomplishEdit</tabstop>
+  <tabstop>registerB</tabstop>
+  <tabstop>backB</tabstop>
+  <tabstop>scrollArea</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

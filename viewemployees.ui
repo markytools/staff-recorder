@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ViewEmployees</class>
+ <widget class="QWidget" name="ViewEmployees">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>905</width>
+    <height>597</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(242, 247, 255);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>885</width>
+        <height>577</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0" colspan="7">
+        <widget class="QLabel" name="label_27">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>20</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>LIST OF EMPLOYEES</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="6">
+        <widget class="QPushButton" name="deleteB">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid #7a7a7a;
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+         </property>
+         <property name="text">
+          <string>        Delete        </string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="7">
+        <widget class="QTableWidget" name="employeesListTable">
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Preferred</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>200</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="3" column="1" colspan="6">
+        <spacer name="horizontalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>731</width>
+           <height>28</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="2" column="3" colspan="2">
+        <widget class="QPushButton" name="editB">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid #7a7a7a;
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+         </property>
+         <property name="text">
+          <string>          Edit          </string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="QLineEdit" name="nameSearch">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>11</pointsize>
+          </font>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::StrongFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid #7a7a7a;
+border-radius: 5px;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QPushButton" name="backB">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid #7a7a7a;
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+         </property>
+         <property name="text">
+          <string>         Back        </string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="5">
+        <widget class="QPushButton" name="refreshB">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid #7a7a7a;
+selection-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+selection-background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(210, 210, 210, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius: 5px;
+background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:1, y2:0.469, stop:0 rgba(165, 165, 165, 255), stop:1 rgba(255, 255, 255, 255));</string>
+         </property>
+         <property name="text">
+          <string>        Refresh        </string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/resource">
+        <file>greybg.png</file>
+        <file>icon.png</file>
+    </qresource>
+</RCC>
